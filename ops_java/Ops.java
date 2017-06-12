@@ -12,8 +12,23 @@ public class Ops {
 
   // main gets executed when we run this class with the java command
   public static void main(String [] args){
-    // invoke sum, passing in 1 and 2 as arguments and print the results
-    System.out.println( sum(1, 2) );
+
+    // declare a variable called first of type int
+    int first;
+
+    //assign first a value of 1
+    first = 1;
+
+    // declare a variable called second of type int
+    // assign it a value of 2
+    int second = 2;
+
+    // declare a variable called result of type int
+    int result = sum(first, second);
+
+    // print the value stored in variable result
+
+    System.out.println(result);
   }
 
 }
